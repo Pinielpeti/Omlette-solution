@@ -1,0 +1,107 @@
+body{
+    min-width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit";
+}
+
+.image{
+    background-color: white;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.image img{
+    border-radius: 15px;
+}
+
+.prep{
+    color: hsl(332, 51%, 32%) ;
+    background-color:hsl(30, 54%, 90%) ;
+    width:auto;
+    border-radius: 10px;
+    padding: 5px;
+    
+}
+
+.prep li{
+    color:black;
+    padding-bottom: 5px;
+    padding-left: 10px;
+
+}
+
+.prep h2{
+    margin-left: 20px;
+    font-family: 'Outfit';
+}
+
+.prep li::marker{
+    color:hsl(332, 51%, 32%);
+}
+
+.ingredients h2{
+
+    color:hsl(332, 51%, 32%)  ;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+
+.ingredients li{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.ingredients li::marker{
+    color: hsl(332, 51%, 32%);
+
+}
+
+
+
+
+.steps h2{
+    color:hsl(332, 51%, 32%);
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+
+.steps li::marker{
+    color:hsl(332, 51%, 32%);
+    
+}
+
+.steps li{
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.nutrition{
+    padding-left: 15px;
+}
+ 
+.table td{
+    padding-bottom: 15px;
+
+}
+
+.second{
+    padding-left: 285px;
+    color:hsl(332, 51%, 32%);
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.table tr {
+    border-bottom: 2px solid rgb(156, 155, 155);
+    
+}
+
+.nutrition h2{
+    color:hsl(332, 51%, 32%);
+}
